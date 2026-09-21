@@ -16,7 +16,7 @@ def run_pipeline(file_path):
 
     # INTENTIONAL ASSESSMENT ISSUE #2
     topic = EventTopic("anomaly-events")
-    # producer_topic = EventTopic("anomaly-events")
+    # producer_topic = EventTopic("service-events")
 
     detector = AnomalyDetector()
     producer = EventProducer(topic)
